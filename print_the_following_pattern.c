@@ -7,10 +7,10 @@ int main()
     {
         for(j=1;j<=n;j++)
         {
-            if(i==j)
-               printf("0");
+            if(j==1 || j==i || j==n)
+               printf("* ");
             else
-               printf("x");
+               printf("  ");
         }
         printf("
 ");
